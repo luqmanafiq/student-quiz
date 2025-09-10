@@ -1,11 +1,9 @@
 ## Detailed Explanation of the CSC1035 Project
-How to Explain the Project to an Interviewer
 Start with this overview to set the stage.
 
 "For my university's CSC1035 module, I participated in a team project to build a command-line quiz management system for Newcastle University College. The goal was to provide a functional back-end system that a head teacher could use to help students with exam revision. The project's requirements were quite specific, which gave us a great opportunity to apply core software engineering principles."
 
 # Key Discussion Points
-Now, dive into the specifics, linking your contributions directly to the client's requirements and the technical learning outcomes.
 
 1. Database Integration and Hibernate
 "A core requirement was to use a database to persist all the quiz questions and results. My team and I used Hibernate to follow the CRUD (Create, Read, Update, Delete) pattern for manipulating the database. This was a critical choice because it allowed us to work with Java objects, like Question and Quiz objects, without having to write complex SQL statements for every operation. This is much more maintainable and robust."
@@ -20,6 +18,5 @@ Now, dive into the specifics, linking your contributions directly to the client'
 "This was a team project, so we had to work together on a single codebase. We used a standard Git workflow, with pull requests and code reviews, to ensure the code was robust and that every team member contributed effectively. My personal responsibility was to implement the core data access layer for the quiz results and to ensure that we correctly logged the user's performance for future review."
 
 # Final Summary Statement
-Conclude your explanation with a strong, confident statement that summarizes your key takeaways and links them to the job at Ant International.
 
 "Overall, this project gave me hands-on experience in building a full-featured back-end system from a client specification. It taught me how to use tools like Hibernate for efficient data management, and the importance of good design patterns for creating scalable and maintainable applications. I believe these skills are directly transferable to developing high-volume, reliable applications in the fintech and payments industry."
