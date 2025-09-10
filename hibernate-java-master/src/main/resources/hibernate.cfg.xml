@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://cs-db.ncl.ac.uk/csc1035_team47</property>
+        <property name="hibernate.connection.username">csc1035_team47</property>
+        <property name="hibernate.connection.password">Scabones7Pep</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+<!--        <property name="show_sql">true</property>-->
+        <property name="format_sql">true</property>
+        <property name="hbm2ddl.auto">update </property>
+
+        <mapping class="csc1035.project2.DatabaseTables.User" /> <!--- Add a new mapping class for a new table in the database -->
+        <mapping class="csc1035.project2.DatabaseTables.Question" />
+        <mapping class="csc1035.project2.DatabaseTables.QuizSubmission" />
+        <mapping class="csc1035.project2.DatabaseTables.Quiz" />
+        <mapping class="csc1035.project2.DatabaseTables.Mark" />
+        <mapping class="csc1035.project2.DatabaseTables.QuestionOption" />
+        <mapping class="csc1035.project2.DatabaseTables.Topic" />
+        <mapping class="csc1035.project2.DatabaseTables.QuizQuestion" />
+        <mapping class="csc1035.project2.DatabaseTables.QuizQuestionPK" />
+        <mapping class="csc1035.project2.DatabaseTables.MarkPK" />
+
+    </session-factory>
+</hibernate-configuration>
